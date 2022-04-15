@@ -1,4 +1,9 @@
-Walkthrough
+
+Category: Authentication Hardening
+
+
+Exercise:
+- Use John the Ripper to crack the password of the flag.zip file to find the flag
 
 Tools
 - Kali linux
@@ -6,5 +11,6 @@ Tools
 - John the Ripper (built into Kali)
  - https://www.kali.org/tools/john/
 
-Exercise:
-- Use John the Ripper to crack the password of the flag.zip file to find the flag
+
+ISM Guidelines see:
+https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-hardening

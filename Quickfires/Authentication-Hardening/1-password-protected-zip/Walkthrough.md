@@ -1,18 +1,16 @@
-Walkthrough
+# Walkthrough - Password Protected Zip File
 
-Tools
+**Tools**
 - Kali linux
 - Zip2John (built into Kali)
 
 - John the Ripper (built into Kali)
  - https://www.kali.org/tools/john/
 
-
-
-Steps
+**Steps**
 1. Open up Kali
 2. Copy zip file into a working folder
-3. Open up Terminla
+3. Open up Terminal
 4. Confirm rockyou.txt is present
  - Use command "locate rockyou"
  - Standard Kali instance should have rockyou wordlist in location: /usr/share/wordlists/rockyou.txt.gz
@@ -33,8 +31,8 @@ Steps
 
 10. Flag answer located upon opening the text file within.
 
-Password for zip file:
+**Password**
 - asdfghjkl
 
-Flag:
+**Flag**
 - flag{NoneShallPassword}

@@ -1,15 +1,16 @@
-# Password Protected Zip File
+# Password Protected Excel File
 
 **Category**
 - Authentication Hardening
 
-
 **Exercise**
-- Use John the Ripper to crack the password of the flag.zip file to find the flag
+- Use John the Ripper to crack the password of the flag.xlsx file to find the flag
 
 **Tools**
 - Kali linux
-- Zip2John (built into Kali)
+- Python (built into Kali)
+- office2john python script
+ - https://github.com/openwall/john/blob/bleeding-jumbo/run/office2john.py
 - John the Ripper (built into Kali)
  - https://www.kali.org/tools/john/
 

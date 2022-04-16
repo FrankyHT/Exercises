@@ -1,17 +1,6 @@
-Walkthrough
+# Walkthrough - Password Protected Excel File
 
-Tools
-- Kali linux
-- Python (built into Kali)
-- office2john python script
- - https://github.com/openwall/john/blob/bleeding-jumbo/run/office2john.py
-
-- John the Ripper (built into Kali)
- - https://www.kali.org/tools/john/
-
-
-
-Steps
+**Steps**
 1. Open up Kali and copy/download the xlsx file to local machine
 2. Open up Terminal
 3. use wget to download the office2john script
@@ -33,8 +22,8 @@ Steps
 
 9. With credientals received, should be able to open up the xlsx file. Flag answer located within.
 
-Password for zip file:
+**Password for zip file**
 - peanut
 
-Flag:
+**Flag**
 - flag{Excel--lentWork!}
